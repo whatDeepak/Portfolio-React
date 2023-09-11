@@ -39,7 +39,7 @@ export const projects = [
         techLinks: ["https://www.typescriptlang.org/", "https://reactjs.org/", "https://nextjs.org/", "https://tailwindcss.com/", "https://www.framer.com/motion/"],
         github: "",
         demo: "",
-        image: "/projects/portfolio.webp",
+        image: "/projects/portfolionew.webp",
         available: true,
     },
     {
