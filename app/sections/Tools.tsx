@@ -81,9 +81,6 @@ const Tools = () => {
                     </div>
                 </div>
 
-
-
-
             </div>
         </section>
     );
