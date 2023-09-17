@@ -39,7 +39,7 @@ export const projects = [
         techLinks: ["https://www.typescriptlang.org/", "https://reactjs.org/", "https://nextjs.org/", "https://tailwindcss.com/", "https://www.framer.com/motion/"],
         github: "",
         demo: "",
-        image: "/projects/portfolionew.webp",
+        image: "/projects/portfolio.svg",
         available: true,
     },
     {
@@ -52,7 +52,7 @@ export const projects = [
         techLinks: ["https://html.spec.whatwg.org/", "https://drafts.csswg.org/", "https://tailwindcss.com/", "https://www.ecma-international.org/publications-and-standards/standards/ecma-262/","https://firebase.google.com/"],
         github: "",
         demo: "https://vyarth.netlify.app/",
-        image: "/projects/portfolio.webp",
+        image: "/projects/vyarth.svg",
         available: true,
     },
     {
