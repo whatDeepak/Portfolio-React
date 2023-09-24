@@ -17,7 +17,7 @@ const Hero = () => {
                 <div
                     className={`relative flex flex-col items-center justify-center ${spaceGrotesk.className} pointer-events-none`}
                 >
-                    <Logo width={200} height={200} />
+                    <Logo width={300} height={300} />
                 </div>
             </div>
         </motion.section>

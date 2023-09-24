@@ -9,7 +9,7 @@ import {
     SiGithub,
     SiGooglechrome, SiGooglefonts,
     SiIntellijidea, SiJavascript, SiKotlin, SiLua,
-    SiNeovim, SiNextdotjs, SiReact, SiRust, SiTypescript, SiWebstorm, SiZig,SiHtml5,SiCss3,SiTailwindcss,SiBootstrap,SiMongodb,SiMysql
+    SiNeovim, SiNextdotjs, SiReact, SiRust, SiTypescript, SiWebstorm, SiZig,SiHtml5,SiCss3,SiTailwindcss,SiBootstrap,SiMongodb,SiMysql,SiCanva
 } from "react-icons/si";
 import AnimatedTools from "../animations/AnimatedTools.tsx";
 
@@ -46,14 +46,14 @@ const Tools = () => {
                         <AnimatedBody delay={0.2} text="Frontend" />
                         <div>
                             <AnimatedTools className="grid grid-cols-5 gap-4 gap-y-12" delay={0.2} stepSize={0.1} iconSize={50}>
-                                <SiHtml5 size={50}/>
-                                <SiCss3 size={50}/>
-                                <SiTailwindcss size={50}/>
-                                <SiBootstrap size={50}/>
-                                <SiTypescript size={50}/>
-                                <SiJavascript size={50}/>
-                                <SiReact size={50}/>
-                                <SiNextdotjs size={50}/>
+                                <SiHtml5 size={50} data-blobity-tooltip="HTML5"/>
+                                <SiCss3 size={50} data-blobity-tooltip="CSS3"/>
+                                <SiTailwindcss size={50} data-blobity-tooltip="TailwindCSS"/>
+                                <SiBootstrap size={50} data-blobity-tooltip="Bootstrap"/>
+                                <SiTypescript size={50} data-blobity-tooltip="Typescript"/>
+                                <SiJavascript size={50} data-blobity-tooltip="Javascript"/>
+                                <SiReact size={50} data-blobity-tooltip="React"/>
+                                <SiNextdotjs size={50} data-blobity-tooltip="Next.js"/>
                             </AnimatedTools>
                         </div>
                     </div>
@@ -61,12 +61,23 @@ const Tools = () => {
                         <AnimatedBody delay={0.3} text="Backend" />
                         <div>
                             <AnimatedTools className="grid grid-cols-5 gap-4 gap-y-12" delay={0.3} stepSize={0.1} iconSize={50}>
-                                <SiJavascript size={50}/>
-                                <SiCplusplus size={50}/>
-                                <SiMongodb size={50}/>
-                                <SiMysql size={50}/>
-                                <SiKotlin size={50}/>
-                                <SiNextdotjs size={50}/>
+                                <SiJavascript size={50} data-blobity-tooltip="Javascript"/>
+                                <SiCplusplus size={50} data-blobity-tooltip="C++"/>
+                                <SiMongodb size={50} data-blobity-tooltip="Mongodb"/>
+                                <SiMysql size={50} data-blobity-tooltip="MySQL"/>
+                                <SiKotlin size={50} data-blobity-tooltip="Kotlin"/>
+                                <SiNextdotjs size={50}data-blobity-tooltip="Next.js"/>
+                            </AnimatedTools>
+                        </div>
+                    </div>
+                    <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-bold leading-relaxed tracking-wide text-[#e4ded7] md:mb-16 md:gap-6 md:text-[40px] md:leading-relaxed lg:mb-16 lg:w-[50%]">
+                        <AnimatedBody delay={0.3} text="Design" />
+                        <div>
+                            <AnimatedTools className="grid grid-cols-5 gap-4 gap-y-12" delay={0.3} stepSize={0.1} iconSize={50}>
+                                <SiFigma size={50} data-blobity-tooltip="Figma"/>
+                                <SiAdobephotoshop size={50} data-blobity-tooltip="Adobe Photoshop"/>
+                                <SiCanva size={50} data-blobity-tooltip="Canva"/>
+                                <SiGooglefonts size={50} data-blobity-tooltip="Google Fonts"/>
                             </AnimatedTools>
                         </div>
                     </div>
@@ -74,8 +85,8 @@ const Tools = () => {
                         <AnimatedBody delay={0.4} text="Other" />
                         <div>
                             <AnimatedTools className="grid grid-cols-5 gap-4" delay={0.4} stepSize={0.1} iconSize={50}>
-                                <SiGithub size={50}/>
-                                <SiGit size={50}/>
+                                <SiGithub size={50} data-blobity-tooltip="Github"/>
+                                <SiGit size={50} data-blobity-tooltip="Git"/>
                             </AnimatedTools>
                         </div>
                     </div>

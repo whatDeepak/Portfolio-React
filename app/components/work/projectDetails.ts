@@ -12,6 +12,8 @@ import {
     SiFirebase,
     SiHtml5,
     SiCss3,
+    SiWebflow,
+    SiFigma
 } from "react-icons/si";
 import {IconType} from "react-icons";
 
@@ -33,7 +35,7 @@ export const projects = [
         id: 0,
         name: "Portfolio 2023",
         description:
-            "This is my portfolio.",
+            "This is my iterated Portfolio.",
         technologies: [SiTypescript, SiReact, SiNextdotjs, SiTailwindcss, SiFramer],
         techNames: ["TypeScript", "React", "Next.js", "Tailwind CSS", "Framer Motion"],
         techLinks: ["https://www.typescriptlang.org/", "https://reactjs.org/", "https://nextjs.org/", "https://tailwindcss.com/", "https://www.framer.com/motion/"],
@@ -57,15 +59,68 @@ export const projects = [
     },
     {
         id: 2,
+        name: "Melody",
+        description:
+            "Melody is a Music Streaming Website. This web application uses an API to fetch the music.",
+        technologies: [SiReact,SiJavascript,SiCss3],
+        techNames: ["React","Javascript","CSS3"],
+        techLinks: ["https://reactjs.org/","https://www.ecma-international.org/publications-and-standards/standards/ecma-262/","https://drafts.csswg.org/"],
+        github: "",
+        demo: "https://melody-tunes.vercel.app/",
+        image: "/projects/melody.svg",
+        available: true,
+    },
+    {
+        id: 3,
+        name: "team.",
+        description:
+            "Full website design and build for a concept team collaboration platform. This website also includes a beautiful blog.",
+        technologies: [SiWebflow,SiFigma,SiHtml5,SiCss3,SiJavascript],
+        techNames: ["Webflow","Figma","HTML5","CSS3","Javascript"],
+        techLinks: ["https://webflow.com/","https://www.figma.com/","https://html.spec.whatwg.org/","https://drafts.csswg.org/","https://www.ecma-international.org/publications-and-standards/standards/ecma-262/"],
+        github: "",
+        demo: "https://teamapp-vyarth.netlify.app/",
+        image: "/projects/team.svg",
+        available: true,
+    },
+    {
+        id: 4,
+        name: "chatapp",
+        description:
+            "This is a homepage design and build for a concept project – a chat application.",
+        technologies: [SiWebflow,SiFigma,SiHtml5,SiCss3,SiJavascript],
+        techNames: ["Webflow","Figma","HTML5","CSS3","Javascript"],
+        techLinks: ["https://webflow.com/","https://www.figma.com/","https://html.spec.whatwg.org/","https://drafts.csswg.org/","https://www.ecma-international.org/publications-and-standards/standards/ecma-262/"],
+        github: "",
+        demo: "https://chatapp-vyarth.netlify.app/",
+        image: "/projects/chatapp.svg",
+        available: true,
+    },
+    {
+        id: 5,
+        name: "Portfolio",
+        description:
+            "This is my first Portfolio. Let's work together to bring your vision to life!",
+        technologies: [SiWebflow,SiFigma,SiHtml5,SiCss3,SiJavascript],
+        techNames: ["Webflow","Figma","HTML5","CSS3","Javascript"],
+        techLinks: ["https://webflow.com/","https://www.figma.com/","https://html.spec.whatwg.org/","https://drafts.csswg.org/","https://www.ecma-international.org/publications-and-standards/standards/ecma-262/"],
+        github: "",
+        demo: "https://deepak-kumar-devportfolio.netlify.app/",
+        image: "/projects/portfoliowf.svg",
+        available: true,
+    },
+    {
+        id: 6,
         name: "Coming Soon",
         description:
             "I'm currently working on a couple of projects. I'll update this section as soon as I'm done.",
-        technologies: [SiZig],
-        techNames: ["Zig"],
-        techLinks: ["https://www.ziglang.org/"],
-        github: "https://github.com/nuIIpointerexception/",
-        demo: "https://github.com/nuIIpointerexception/",
+        technologies: [],
+        techNames: [],
+        techLinks: [],
+        github: "",
+        demo: "",
         image: "/projects/construction.webp",
         available: false,
     },
+    
 ];
