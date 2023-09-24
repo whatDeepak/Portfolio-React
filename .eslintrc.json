@@ -44,6 +44,7 @@
   "rules": {
     "react/prop-types": "off",
     "@next/next/no-img-element": "off",
+    "@next/next/no-head-element": "off",
     "@next/next/no-html-link-for-pages": "off",
     "unicorn/escape-case": "error",
     "unicorn/number-literal-case": "error",
@@ -92,7 +93,8 @@
     "@typescript-eslint/prefer-namespace-keyword": "off",
     "@typescript-eslint/adjacent-overload-signatures": "off",
     "@typescript-eslint/no-inferrable-types": ["warn", { "ignoreParameters": true, "ignoreProperties": true }],
-    "@typescript-eslint/no-unused-vars": ["warn", { "vars": "all", "args": "none", "ignoreRestSiblings": false }],
+    "@typescript-eslint/no-unused-vars": "off",
+    // ["warn", { "vars": "all", "args": "none", "ignoreRestSiblings": false }]
     "@typescript-eslint/no-misused-promises": ["error", { "checksVoidReturn": false }],
     "@typescript-eslint/no-empty-function": "off",
     "@typescript-eslint/restrict-template-expressions": ["error", {
