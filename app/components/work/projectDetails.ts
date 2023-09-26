@@ -42,7 +42,7 @@ export const projects = [
         github: "",
         demo: "",
         image: "/projects/portfolio.svg",
-        available: true,
+        available: false,
     },
     {
         id: 1,
