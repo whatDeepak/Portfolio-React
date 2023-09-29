@@ -65,7 +65,7 @@ const Contact = () => {
                             />
                         </Link>
                         <Link
-                            href="www.linkedin.com/in/deepakkumar-dev"
+                            href="https://www.linkedin.com/in/deepakkumar-dev/"
                             target="_blank"
                             aria-label="View Linkedin Profile"
                         >
