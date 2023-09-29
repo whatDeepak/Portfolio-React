@@ -8,7 +8,7 @@ import {
     SiAdobephotoshop, SiAstro, SiCinema4D, SiCplusplus, SiFigma, SiFramer, SiGit,
     SiGithub,
     SiGooglechrome, SiGooglefonts,
-    SiIntellijidea, SiJavascript, SiKotlin, SiLua,
+    SiIntellijidea, SiJavascript, SiKotlin, SiLua,SiWebflow,
     SiNeovim, SiNextdotjs, SiReact, SiRust, SiTypescript, SiWebstorm, SiZig,SiHtml5,SiCss3,SiTailwindcss,SiBootstrap,SiMongodb,SiMysql,SiCanva
 } from "react-icons/si";
 import AnimatedTools from "../animations/AnimatedTools.tsx";
@@ -78,6 +78,7 @@ const Tools = () => {
                                 <SiAdobephotoshop size={50} data-blobity-tooltip="Adobe Photoshop"/>
                                 <SiCanva size={50} data-blobity-tooltip="Canva"/>
                                 <SiGooglefonts size={50} data-blobity-tooltip="Google Fonts"/>
+                                <SiWebflow size={50} data-blobity-tooltip="Webflow"/>
                             </AnimatedTools>
                         </div>
                     </div>

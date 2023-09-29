@@ -90,7 +90,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
     return (
         <html lang="en">
             <head>
-                <link rel="icon" href="/faviconnew.ico" type="image/x-icon" />
+                <link rel="icon" href="/faviconweb.ico" type="image/x-icon" />
             </head>
             <body
                 className={`${syne.className} scroll-smooth scrollbar-none scrollbar-track-[#0E1016] scrollbar-thumb-[#212531]`}
