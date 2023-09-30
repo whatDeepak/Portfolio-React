@@ -7,8 +7,8 @@ import {
     SiAdobeillustrator,
     SiAdobephotoshop, SiAstro, SiCinema4D, SiCplusplus, SiFigma, SiFramer, SiGit,
     SiGithub,
-    SiGooglechrome, SiGooglefonts,
-    SiIntellijidea, SiJavascript, SiKotlin, SiLua,SiWebflow,
+    SiGooglechrome, SiGooglefonts,SiNodedotjs,SiExpress,SiPostgresql,SiPostman,
+    SiIntellijidea, SiJavascript, SiKotlin, SiLua,SiWebflow,SiPrisma,
     SiNeovim, SiNextdotjs, SiReact, SiRust, SiTypescript, SiWebstorm, SiZig,SiHtml5,SiCss3,SiTailwindcss,SiBootstrap,SiMongodb,SiMysql,SiCanva
 } from "react-icons/si";
 import AnimatedTools from "../animations/AnimatedTools.tsx";
@@ -50,10 +50,11 @@ const Tools = () => {
                                 <SiCss3 size={50} data-blobity-tooltip="CSS3"/>
                                 <SiTailwindcss size={50} data-blobity-tooltip="TailwindCSS"/>
                                 <SiBootstrap size={50} data-blobity-tooltip="Bootstrap"/>
-                                <SiTypescript size={50} data-blobity-tooltip="Typescript"/>
-                                <SiJavascript size={50} data-blobity-tooltip="Javascript"/>
                                 <SiReact size={50} data-blobity-tooltip="React"/>
                                 <SiNextdotjs size={50} data-blobity-tooltip="Next.js"/>
+                                <SiTypescript size={50} data-blobity-tooltip="Typescript"/>
+                                <SiJavascript size={50} data-blobity-tooltip="Javascript"/>
+
                             </AnimatedTools>
                         </div>
                     </div>
@@ -62,10 +63,13 @@ const Tools = () => {
                         <div>
                             <AnimatedTools className="grid grid-cols-5 gap-4 gap-y-12" delay={0.3} stepSize={0.1} iconSize={50}>
                                 <SiJavascript size={50} data-blobity-tooltip="Javascript"/>
-                                <SiCplusplus size={50} data-blobity-tooltip="C++"/>
+                                {/* <SiCplusplus size={50} data-blobity-tooltip="C++"/> */}
+                                <SiNodedotjs size={50} data-blobity-tooltip="Node.js"/>
+                                <SiExpress size={50} data-blobity-tooltip="Express.js"/>
                                 <SiMongodb size={50} data-blobity-tooltip="Mongodb"/>
                                 <SiMysql size={50} data-blobity-tooltip="MySQL"/>
-                                <SiKotlin size={50} data-blobity-tooltip="Kotlin"/>
+                                <SiPostgresql size={50} data-blobity-tooltip="PostgreSQL"/>
+                                {/* <SiKotlin size={50} data-blobity-tooltip="Kotlin"/> */}
                                 <SiNextdotjs size={50}data-blobity-tooltip="Next.js"/>
                             </AnimatedTools>
                         </div>
@@ -75,10 +79,10 @@ const Tools = () => {
                         <div>
                             <AnimatedTools className="grid grid-cols-5 gap-4 gap-y-12" delay={0.3} stepSize={0.1} iconSize={50}>
                                 <SiFigma size={50} data-blobity-tooltip="Figma"/>
+                                <SiWebflow size={50} data-blobity-tooltip="Webflow"/>
                                 <SiAdobephotoshop size={50} data-blobity-tooltip="Adobe Photoshop"/>
                                 <SiCanva size={50} data-blobity-tooltip="Canva"/>
                                 <SiGooglefonts size={50} data-blobity-tooltip="Google Fonts"/>
-                                <SiWebflow size={50} data-blobity-tooltip="Webflow"/>
                             </AnimatedTools>
                         </div>
                     </div>
@@ -88,6 +92,8 @@ const Tools = () => {
                             <AnimatedTools className="grid grid-cols-5 gap-4" delay={0.4} stepSize={0.1} iconSize={50}>
                                 <SiGithub size={50} data-blobity-tooltip="Github"/>
                                 <SiGit size={50} data-blobity-tooltip="Git"/>
+                                <SiPostman size={50} data-blobity-tooltip="Postman"/>
+                                <SiPrisma size={50} data-blobity-tooltip="Prisma"/>
                             </AnimatedTools>
                         </div>
                     </div>

@@ -13,7 +13,8 @@ import {
     SiHtml5,
     SiCss3,
     SiWebflow,
-    SiFigma
+    SiFigma,
+    SiShazam
 } from "react-icons/si";
 import {IconType} from "react-icons";
 
@@ -62,9 +63,9 @@ export const projects = [
         name: "Melody",
         description:
             "Melody is a Music Streaming Website. This web application uses an API to fetch the music.",
-        technologies: [SiReact,SiJavascript,SiCss3],
-        techNames: ["React","Javascript","CSS3"],
-        techLinks: ["https://reactjs.org/","https://www.ecma-international.org/publications-and-standards/standards/ecma-262/","https://drafts.csswg.org/"],
+        technologies: [SiReact,SiJavascript,SiCss3,SiShazam],
+        techNames: ["React","Javascript","CSS3","ShazamAPI"],
+        techLinks: ["https://reactjs.org/","https://www.ecma-international.org/publications-and-standards/standards/ecma-262/","https://drafts.csswg.org/","https://rapidapi.com/apidojo/api/shazam/"],
         github: "",
         demo: "https://melody-tunes.vercel.app/",
         image: "/projects/melody.svg",
