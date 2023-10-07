@@ -1,10 +1,8 @@
-# Portfolio v5 ![dev](https://github.com/nuIIpointerexception/www.seekvisualartist.com/actions/workflows/dev.yml/badge.svg) ![master](https://github.com/nuIIpointerexception/www.seekvisualartist.com/actions/workflows/master.yml/badge.svg)
+# Portfolio 
 
-This is the fifth iteration of my portfolio website. It is built with Next.js, React and Tailwind CSS.
+This is my portfolio website. It is built with Next.js, React and Tailwind CSS.
 
-My goal was to try out a simplistic glass-morphism-like design and learn more about React and Next.js.
-
-Check it out [here](https://www.seekvisualartist.com/)
+Check it out [here](https://deepakkumar-portfolio.vercel.app/)
 
 ---
 
@@ -20,53 +18,6 @@ Check it out [here](https://www.seekvisualartist.com/)
 
 ---
 
-## Prerequisites
-
-- [Node.js](https://nodejs.org/en/) - 20.4.0+ or [Bun](https://bun.sh/) - 0.7.0+
-- That's it!
-
----
-
-## Building
-
-1. Clone the repository
-
-    ```bash
-    git clone https://github.com/nuIIpointerexception/www.seekvisualartist.com/
-    ```
-
-2. Install dependencies
-
-    ```bash
-    bun install
-    ```
-
-3. Run the development server
-
-    ```bash
-    bun run dev
-    ```
-
----
-
-## Deployment 📦
-
-Now you'll only need to deploy the app to your favorite hosting provider.
-Personally I'd recommend [Vercel](https://vercel.com/) or [Netlify](https://www.netlify.com/).
-
-1. Build the app
-
-    ```bash
-    bun run build
-    ```
-
-2. Start the production server
-
-    ```bash
-    bun run start
-    ```
-
----
 
 ## Tech used 🛠️
 
@@ -75,7 +26,6 @@ Personally I'd recommend [Vercel](https://vercel.com/) or [Netlify](https://www.
 - [Tailwind CSS](https://tailwindcss.com/) - CSS Framework
 - [Framer Motion](https://www.framer.com/motion/) - Animation Library
 - [GSAP](https://greensock.com/gsap/) - Animation Library
-- [Bun](https://bun.sh/) - Task Runner
 - [ESLint](https://eslint.org/) - Linter
 - [Prettier](https://prettier.io/) - Code Formatter
 - [Blobity](https://blobity.dev/) - Cursor Effects
