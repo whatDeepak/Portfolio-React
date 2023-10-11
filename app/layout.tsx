@@ -10,7 +10,7 @@ const syne = Syne({
 });
 
 export const metadata: Metadata = {
-    metadataBase: new URL("https://www.seekvisualartist.com/"),
+    metadataBase: new URL("https://deepakkumar-portfolio.vercel.app/"),
     title: "Deepak Kumar - Web Developer and Designer",
     description:
     "Designer and Developer. Focused on immersive experiences.",
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
         description:
        "Designer and Developer. Focused on immersive experiences.",
         url: "",
-        siteName: "www.seekvisualartist.com",
+        siteName: "https://deepakkumar-portfolio.vercel.app/",
         images: [
             {
                 url: "./public/metadatanew.png",
