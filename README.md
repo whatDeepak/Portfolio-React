@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 # Portfolio
 
 This is  my portfolio website. It is built with Next.js, React and Tailwind CSS.
+=======
+# Portfolio 
+
+This is my portfolio website. It is built with Next.js, React and Tailwind CSS.
+>>>>>>> 36d79a91c5aa24820ace9caed507e3feaabd9e95
 
 Check it out [here](https://deepakkumar-portfolio.vercel.app/)
 
@@ -16,6 +22,11 @@ Check it out [here](https://deepakkumar-portfolio.vercel.app/)
     <img src='./.github/assets/3.png' width='1817' alt="contact section">
 </div>
 
+<<<<<<< HEAD
+=======
+---
+
+>>>>>>> 36d79a91c5aa24820ace9caed507e3feaabd9e95
 
 ## Tech used 🛠️
 
@@ -24,7 +35,6 @@ Check it out [here](https://deepakkumar-portfolio.vercel.app/)
 - [Tailwind CSS](https://tailwindcss.com/) - CSS Framework
 - [Framer Motion](https://www.framer.com/motion/) - Animation Library
 - [GSAP](https://greensock.com/gsap/) - Animation Library
-- [Bun](https://bun.sh/) - Task Runner
 - [ESLint](https://eslint.org/) - Linter
 - [Prettier](https://prettier.io/) - Code Formatter
 - [Blobity](https://blobity.dev/) - Cursor Effects
